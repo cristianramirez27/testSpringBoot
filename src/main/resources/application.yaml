@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /v1
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: springVersion # Expose all endpoints
+        
